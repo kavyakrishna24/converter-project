@@ -1,0 +1,50 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1> <b>Convertor</b></h1>
+
+        <div class="div1">
+            <h3>From</h3>
+            <select name="" id="select_one">
+                <option value="1">Decimal</option>
+                <option value="2">Hexadecimal</option>
+                <option value="3">Octal</option>
+                <option value="4">Binary</option>
+            </select>
+             <input type="number" id="one" placeholder="number" class="toggle_one">
+    
+        </div>
+    
+        <div class="div2">
+            <h3>To</h3>
+            <select name="" id="select_two">
+                <option value="1">Decimal</option>
+                <option value="2">Hexadecimal</option>
+                <option value="3">Octal</option>
+                <option value="4">Binary</option>
+            </select>
+            <input type="number" id="two" placeholder="number" class="toggle_two">
+            
+        </div>
+             
+        <div class="div3">
+            <button id="btn">Swap</button>
+             <button id="submit" >Result</button>
+             <button id="refresh">Reset</button>
+        </div>
+        <h6> Refresh from top after every result </h6>
+    </div>
+         
+<script src="app.js"></script>
+</body>
+</html>
